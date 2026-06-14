@@ -1,0 +1,39 @@
+name: saas_rh_pro_final
+description: "Application SaaS RH Pro Finale 100% Offline"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Base de données locale v3 Stable
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+
+  # Gestion des répertoires et fichiers
+  path_provider: ^2.1.3
+  path: ^1.9.0
+
+  # Médias et sélections (Photo & Documents)
+  image_picker: ^1.1.2
+  file_picker: ^8.0.3
+  url_launcher: ^6.3.0
+  device_info_plus: ^10.1.0
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  
+  # Générateurs de code locaux
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.4.9
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
